@@ -4,15 +4,14 @@
 fetch('https://api.covid19api.com/world')
     .then(response => response.json())
     .then(data => {
-        document.querySelector('#newConfirmed').innerText = data[0]['NewConfirmed']
-        document.querySelector('#newDeaths').innerText = data[0]['NewDeaths']
-
-        document.querySelector('#totalConfirmed').innerText = data[0]['TotalConfirmed']
-        document.querySelector('#totalDeaths').innerText = data[0]['TotalDeaths']
-
-
-
-
-
-        console.log(data)
+        function getData(id) {
+            //get number from object
+            const num = data[0][id]
+            //add commas to format
+            return new Intl.NumberFormat().format(num)
+        }
+        document.querySelector('#newConfirmed').innerText = getData('NewConfirmed')
+        document.querySelector('#newDeaths').innerText = getData('NewDeaths')
+        document.querySelector('#totalConfirmed').innerText = getData('TotalConfirmed')
+        document.querySelector('#totalDeaths').innerText = getData('TotalDeaths')
     });
