@@ -1,5 +1,5 @@
 # COVID-19 API
-See the current world 
+See the current world COVID deaths and cases in real time
 
 **Link to project:** https://coronavirusworlddata.netlify.app/
 
