@@ -1,9 +1,9 @@
-# COVID-19 API
+# COVID-19 Tracker
 See the current world COVID deaths and cases in real time
 
 **Link to project:** https://coronavirusworlddata.netlify.app/
 
-![A website tracking covid data](CovidTracker.png)
+![A website tracking covid data](covidAPI.webp)
 
 ## How It's Made:
 
