@@ -1,5 +1,5 @@
 # COVID-19 Tracker
-See the current world COVID deaths and cases in real time
+See the current world and total world COVID deaths and cases in real time
 
 **Link to project:** https://coronavirusworlddata.netlify.app/
 
