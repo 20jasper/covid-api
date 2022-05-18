@@ -3,7 +3,7 @@ See the current world and total world COVID deaths and cases in real time
 
 **Link to project:** https://coronavirusworlddata.netlify.app/
 
-![A website tracking covid data](covidAPI.webp)
+![A website tracking covid data](CovidTracker.jpg)
 
 ## How It's Made:
 
